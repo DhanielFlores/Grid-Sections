@@ -1,0 +1,2489 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500, 600;
+}
+
+.container {
+  background: rgb(233, 244, 250);
+}
+
+/** Daniel Clifford's part **/
+
+.first {
+  margin: 8rem 1rem 2rem 35rem;
+  padding: 2rem;
+  background: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  width: 38rem;
+  height: 21rem;
+}
+
+.pic1 {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  width: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user1 {
+  color: hsl(210, 46%, 95%);
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+.tag1 {
+  color: hsl(0, 0%, 81%, 0.5);
+  padding-left: 5rem;
+}
+
+.tes1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: hsl(210, 46%, 95%);
+}
+
+.par1 {
+  color: hsl(0, 0%, 81%, 0.7);
+  letter-spacing: 0.6;
+  font-size: small;
+}
+
+/** Jonathan Walter's part **/
+
+.second {
+  margin: 8rem 1rem 2rem 29rem;
+  padding: 2rem;
+  background: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  width: 20rem;
+  height: 21rem;
+}
+
+.pic2 {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+  width: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user2 {
+  color: hsl(210, 46%, 95%);
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+.tag2 {
+  color: hsl(0, 0%, 81%, 0.5);
+  padding-left: 5rem;
+}
+
+.tes2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: hsl(210, 46%, 95%);
+}
+
+.par2 {
+  color: hsl(0, 0%, 81%, 0.7);
+  letter-spacing: 0.6;
+  font-size: small;
+}
+
+/** Kira Whittle's part **/
+
+.third {
+  margin: 8rem 8rem 2rem 5rem;
+  padding: 2rem;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 18rem;
+  height: 44rem;
+}
+
+.pic3 {
+  border-style: solid;
+  border-color: hsl(219, 29%, 14%);
+  width: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user3 {
+  color: hsl(217, 19%, 35%);
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+.tag3 {
+  color: rgb(121, 121, 121);
+  padding-left: 5rem;
+}
+
+.tes3 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: hsl(217, 19%, 35%);
+}
+
+.par3 {
+  color: rgb(121, 121, 121);
+  letter-spacing: 0.6;
+  font-size: small;
+}
+
+/** Jeanette Harmon's part **/
+
+.fourth {
+  margin: 1rem 1rem 8rem 35rem;
+  padding: 2rem;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 18rem;
+  height: 21rem;
+}
+
+.pic4 {
+  border-style: solid;
+  border-color: hsl(219, 29%, 14%);
+  width: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user4 {
+  color: hsl(217, 19%, 35%);
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+.tag4 {
+  color: rgb(121, 121, 121);
+  padding-left: 5rem;
+}
+
+.tes4 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: hsl(217, 19%, 35%);
+}
+
+.par4 {
+  color: rgb(121, 121, 121);
+  letter-spacing: 0.6;
+  font-size: small;
+}
+
+/** Patrick Abrams part **/
+
+.fifth {
+  margin: 1rem 8rem 1rem 9rem;
+  padding: 2rem;
+  background: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  width: 40rem;
+  height: 21rem;
+}
+
+.pic5 {
+  border-style: solid;
+  border-color: hsl(263, 55%, 52%);
+  width: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.user5 {
+  color: hsl(210, 46%, 95%);
+  padding-top: 10px;
+  padding-left: 5rem;
+}
+
+.tag5 {
+  color: hsl(0, 0%, 81%, 0.5);
+  padding-left: 5rem;
+}
+
+.tes5 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: hsl(210, 46%, 95%);
+}
+
+.par5 {
+  color: hsl(0, 0%, 81%, 0.7);
+  letter-spacing: 0.6;
+  font-size: small;
+}
+
+/** grid station XD **/
+
+.grid {
+  display: grid;
+  grid-template-columns: 600px 600px 700px;
+  grid-template-rows: 390px 390px;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 .";
+}
+
+.first {
+  grid-area: box1;
+}
+.second {
+  grid-area: box2;
+}
+.third {
+  grid-area: box3;
+}
+.fourth {
+  grid-area: box4;
+}
+.fifth {
+  grid-area: box5;
+}
+
+/** the quotation! **/
+
+.quote {
+  grid-area: box1;
+  margin: 8rem 1rem 1rem 60rem;
+}
+
+/** the attribute **/
+
+.attribution {
+  grid-area: box5;
+  margin-top: 25rem;
+  margin-left: 13rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 2560px) {
+  .container {
+    display: block;
+  }
+
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 8rem 1rem 2rem 35rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 38rem;
+    height: 21rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 8rem 1rem 2rem 30rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 20rem;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 8rem 8rem 2rem 7rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: -9rem 1rem 8rem 35rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: -9rem 8rem 1rem 10rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 40rem;
+    height: 21rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: grid;
+    grid-template-columns: 600px 600px 700px;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "box1 box2 box3"
+      "box4 box5 .";
+  }
+
+  .first {
+    grid-area: box1;
+  }
+  .second {
+    grid-area: box2;
+  }
+  .third {
+    grid-area: box3;
+  }
+  .fourth {
+    grid-area: box4;
+  }
+  .fifth {
+    grid-area: box5;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    grid-area: box1;
+    margin: 8rem 1rem 1rem 60rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    grid-area: box5;
+    margin-top: 25rem;
+    margin-left: 15rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .container {
+    display: block;
+  }
+
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 8rem 1rem 2rem 10rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 38rem;
+    height: 21rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 8rem 1rem 2rem 4rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 20rem;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 8rem 8rem 2rem -20rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: -9rem 1rem 8rem 10rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: -9rem 8rem 1rem -16rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 40rem;
+    height: 21rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: grid;
+    grid-template-columns: 600px 600px 700px;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "box1 box2 box3"
+      "box4 box5 .";
+  }
+
+  .first {
+    grid-area: box1;
+  }
+  .second {
+    grid-area: box2;
+  }
+  .third {
+    grid-area: box3;
+  }
+  .fourth {
+    grid-area: box4;
+  }
+  .fifth {
+    grid-area: box5;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    grid-area: box1;
+    margin: 8rem 1rem 1rem 38rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    grid-area: box5;
+    margin-top: 25rem;
+    margin-left: -12rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    display: block;
+  }
+
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 8rem 1rem 2rem 8rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 38rem;
+    height: 21rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 8rem 1rem 2rem 2rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 20rem;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 8rem 8rem 2rem -22rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: -9rem 1rem 8rem 8rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: -9rem 8rem 1rem -18rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 40rem;
+    height: 21rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: small;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: grid;
+    grid-template-columns: 600px 600px 700px;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "box1 box2 box3"
+      "box4 box5 .";
+  }
+
+  .first {
+    grid-area: box1;
+  }
+  .second {
+    grid-area: box2;
+  }
+  .third {
+    grid-area: box3;
+  }
+  .fourth {
+    grid-area: box4;
+  }
+  .fifth {
+    grid-area: box5;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    grid-area: box1;
+    margin: 8rem 1rem 1rem 35rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    grid-area: box5;
+    margin-top: 25rem;
+    margin-left: -15rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 95%;
+    height: 25rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 26rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 95%;
+    height: 22rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -112rem 1rem 1rem 65rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 110rem 1rem 1rem 25rem;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 95%;
+    height: 25rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 26rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 95%;
+    height: 22rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -112rem 1rem 1rem 45rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 110rem 1rem 1rem 15rem;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 95%;
+    height: 25rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 26rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 95%;
+    height: 22rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -112rem 1rem 1rem 35rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 110rem 1rem 1rem 10rem;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 90%;
+    height: 35rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 90%;
+    height: 30rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -160rem 1rem 1rem 19rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 155rem 1rem 1rem 3rem;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 380px) {
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 90%;
+    height: 35rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 90%;
+    height: 30rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -160rem 1rem 1rem 17rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 155rem 1rem 1rem 1rem;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+  }
+
+  /** Daniel Clifford's part **/
+
+  .first {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 90%;
+    height: 35rem;
+  }
+
+  .pic1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user1 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag1 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par1 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jonathan Walter's part **/
+
+  .second {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic2 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user2 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag2 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par2 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Kira Whittle's part **/
+
+  .third {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 44rem;
+  }
+
+  .pic3 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user3 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag3 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes3 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par3 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Jeanette Harmon's part **/
+
+  .fourth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 90%;
+    height: 21rem;
+  }
+
+  .pic4 {
+    border-style: solid;
+    border-color: hsl(219, 29%, 14%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user4 {
+    color: hsl(217, 19%, 35%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag4 {
+    color: rgb(121, 121, 121);
+    padding-left: 5rem;
+  }
+
+  .tes4 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(217, 19%, 35%);
+  }
+
+  .par4 {
+    color: rgb(121, 121, 121);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** Patrick Abrams part **/
+
+  .fifth {
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem;
+    background: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    width: 90%;
+    height: 30rem;
+  }
+
+  .pic5 {
+    border-style: solid;
+    border-color: hsl(263, 55%, 52%);
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .user5 {
+    color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+    padding-left: 5rem;
+  }
+
+  .tag5 {
+    color: hsl(0, 0%, 81%, 0.5);
+    padding-left: 5rem;
+  }
+
+  .tes5 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: hsl(210, 46%, 95%);
+  }
+
+  .par5 {
+    color: hsl(0, 0%, 81%, 0.7);
+    letter-spacing: 0.6;
+    font-size: 15px;
+  }
+
+  /** grid station XD **/
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** the quotation! **/
+
+  .quote {
+    margin: -160rem 1rem 1rem 17rem;
+  }
+
+  /** the attribute **/
+
+  .attribution {
+    margin: 155rem 1rem 1rem 1rem;
+    letter-spacing: normal;
+  }
+}
